@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppNumeroImpar.View.PageInicial"
+             Title="Programa Par ou Impar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Verifica se o numero informado é par ou impar"
+                FontSize="Large" />
+            <Entry Placeholder="Informe um numero" Text="{Binding Numero}"/>
+            <Button Text="Executar" Command="{Binding CommandExecute}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
